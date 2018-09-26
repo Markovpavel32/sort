@@ -2,7 +2,7 @@
   "name": "sort",
   "version": "1.0.0",
   "description": "",
-  "main": "/src/app.js",
+  "main": "/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1"
   }
